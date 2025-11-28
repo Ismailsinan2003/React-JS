@@ -22,7 +22,7 @@ export default function App() {
 
       fetchCurrency();
     },
-    [base, secondary]
+    [amount, base, secondary]
   );
 
   return (
