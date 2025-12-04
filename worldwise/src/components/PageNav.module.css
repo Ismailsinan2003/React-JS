@@ -1,0 +1,16 @@
+.nav {
+  background-color: beige;
+}
+
+.nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+.nav li {
+  list-style: none;
+}
+
+:global(.test) {
+  background-color: red;
+}
